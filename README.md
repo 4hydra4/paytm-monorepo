@@ -1,9 +1,23 @@
+Tech and Tools
+1. Frontend and Backend - Next.js
+2. Express - Auxiliary backends (Bank webhook)
+3. Turborepo
+4. Postgres Database
+5. Prisma ORM
+6. Tailwind
+7. Docker
+8. CI/CD
+
+CONCEPTS
+1. State management using Recoil
+2. Authentication using next-auth
+3. On-ramping (adding money to wallet) through a webhook
+4. Transactions in Postgres
+5. Locking rows for transaction
+
+
+
 - Clone the repo
-
-```jsx
-git clone https://github.com/100xdevs-cohort-2/week-17-final-code
-```
-
 - npm install
 - Run postgres either locally or on the cloud (neon.tech)
 
