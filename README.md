@@ -1,4 +1,4 @@
-<u>Tech and Tools</u>
+**Tech and Tools**
 1. Frontend and Backend - Next.js
 2. Express - Auxiliary backends (Bank webhook)
 3. Turborepo
@@ -8,7 +8,7 @@
 7. Docker
 8. CI/CD
 
-<u>CONCEPTS</u>
+**CONCEPTS**
 1. State management using Recoil
 2. Authentication using next-auth
 3. On-ramping (adding money to wallet) through a webhook
