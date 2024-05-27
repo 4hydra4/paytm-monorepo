@@ -19,6 +19,18 @@ app.post("/hdfcWebhook", async (req, res) => {
     };
 
     try {
+        const txn: any = await db.onRampTransaction.findUnique({
+            where: {
+                token: paymentInformation.token
+            }
+        });
+
+        if (txn.status == "Success") {
+            return res.json({
+                message: "Token expired!"
+            });
+        }
+        
         await db.$transaction([
             db.balance.updateMany({
                 where: {
